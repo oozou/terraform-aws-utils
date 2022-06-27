@@ -1,5 +1,7 @@
 # terraform-aws-utils
 
+This module is for creating global config for aws resources (independent of any specific resource).
+
 ```terraform
 module "utils" {
     source = "git::https://<YOUR_VCS_URL>/terraform-aws-utils?ref=v1.0.0"
